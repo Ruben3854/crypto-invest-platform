@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crypto Invest Platform</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Invest & Earn 15% in 30 Days</h1>
+    <form id="investForm">
+      <input type="text" id="name" placeholder="Full Name" required/>
+      <input type="email" id="email" placeholder="Email Address" required/>
+      <input type="number" id="amount" placeholder="Amount to Invest (USD)" required/>
+      <button type="submit">Invest Now</button>
+    </form>
+    <p id="status"></p>
+  </div>
+  <script src="firebase-config.js" type="module"></script>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
