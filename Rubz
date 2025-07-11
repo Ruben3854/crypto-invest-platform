@@ -1,0 +1,6 @@
+git init
+https://github.com/Ruben3854/crypto-invest-platform.git
+git add .
+git commit -m "Initial commit"
+
+git push -u origin main
